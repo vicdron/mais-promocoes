@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/pelando"
+        android:title="Pelando" />
+
+    <item
+        android:id="@+id/navigation_wallpaper"
+        android:icon="@drawable/jacotei1"
+        android:title="Jacotei" />
+
+    <item
+        android:id="@+id/navigation_placar"
+        android:icon="@drawable/promobit"
+        android:title="Promobit" />
+
+    <item
+        android:id="@+id/navigation_tweets"
+        android:icon="@drawable/gatry1"
+        android:title="Gatry" />
+
+
+</menu>
