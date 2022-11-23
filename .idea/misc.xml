@@ -4,10 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.37025641025641026" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/fragment_jacotei.xml" value="0.25104166666666666" />
+        <entry key="app/src/main/res/layout/fragment_pelando.xml" value="0.25104166666666666" />
         <entry key="app/src/main/res/layout/fragment_placar.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/fragment_promobit.xml" value="0.25104166666666666" />
         <entry key="app/src/main/res/layout/fragment_tweets.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/layout/fragment_wallpaper.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/fragment_zoom.xml" value="0.2484375" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25104166666666666" />
       </map>
     </option>
   </component>

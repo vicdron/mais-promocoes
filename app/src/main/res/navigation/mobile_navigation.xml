@@ -3,29 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_pelando">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="vicdron.com.maispromocoes.ui.HomeFragment"
-        android:label="+ Promo"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_pelando"
+        android:name="vicdron.com.maispromocoes.ui.PelandoFragment"
+        android:label="Pelando + Promo "
+        tools:layout="@layout/fragment_pelando" />
 
     <fragment
-        android:id="@+id/navigation_wallpaper"
-        android:name="vicdron.com.maispromocoes.ui.WallpaperFragment"
-        android:label="+ Promo"
-        tools:layout="@layout/fragment_wallpaper" />
+        android:id="@+id/navigation_jacotei"
+        android:name="vicdron.com.maispromocoes.ui.JacoteiFragment"
+        android:label="Jacotei + Promo"
+        tools:layout="@layout/fragment_jacotei" />
 
     <fragment
-        android:id="@+id/navigation_placar"
-        android:name="vicdron.com.maispromocoes.ui.PlacarFragment"
-        android:label="+ Promo"
-        tools:layout="@layout/fragment_tweets" />
+        android:id="@+id/navigation_promobit"
+        android:name="vicdron.com.maispromocoes.ui.PromobitFragment"
+        android:label="Prmobit + Promo"
+        tools:layout="@layout/fragment_promobit" />
 
     <fragment
-        android:id="@+id/navigation_tweets"
-        android:name="vicdron.com.maispromocoes.ui.TweetsFragment"
-        android:label="+ Promo"
-        tools:layout="@layout/fragment_tweets" />
+        android:id="@+id/navigation_zoom"
+        android:name="vicdron.com.maispromocoes.ui.ZoomFragment"
+        android:label="Zoom + Promo"
+        tools:layout="@layout/fragment_zoom" />
 </navigation>

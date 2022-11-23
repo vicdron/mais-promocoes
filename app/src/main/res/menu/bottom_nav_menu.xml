@@ -2,24 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_pelando"
         android:icon="@drawable/pelando"
         android:title="Pelando" />
 
     <item
-        android:id="@+id/navigation_wallpaper"
+        android:id="@+id/navigation_jacotei"
         android:icon="@drawable/jacotei1"
         android:title="Jacotei" />
 
     <item
-        android:id="@+id/navigation_placar"
+        android:id="@+id/navigation_promobit"
         android:icon="@drawable/promobit"
         android:title="Promobit" />
 
     <item
-        android:id="@+id/navigation_tweets"
-        android:icon="@drawable/gatry1"
-        android:title="Gatry" />
+        android:id="@+id/navigation_zoom"
+        android:icon="@drawable/zoom"
+        android:title="Zoom" />
 
 
 </menu>
