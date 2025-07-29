@@ -21,5 +21,10 @@
         android:icon="@drawable/zoom"
         android:title="Zoom" />
 
+    <item
+        android:id="@+id/navigation_gatry"
+        android:icon="@drawable/gatry1"
+        android:title="Gatry" />
+
 
 </menu>

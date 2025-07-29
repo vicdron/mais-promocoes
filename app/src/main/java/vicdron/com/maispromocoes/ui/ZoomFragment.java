@@ -1,5 +1,7 @@
 package vicdron.com.maispromocoes.ui;
 
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,18 +16,18 @@ import vicdron.com.maispromocoes.R;
 
 
 public class ZoomFragment extends Fragment {
+    @SuppressLint({"VisibleForTests", "SetJavaScriptEnabled"})
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view =  inflater.inflate(R.layout.fragment_zoom, container, false);
+        View view =  inflater.inflate(R.layout.fragment_promobit, container, false);
         ((AdView) view.findViewById(R.id.adView)).loadAd(new AdRequest.Builder().build());
 
-
-        WebView webView = (WebView) view.findViewById(R.id.webView);
+        WebView webView = view.findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("www.zoom.com.br");
+        webView.loadUrl("https://www.zoom.com.br/");
 
         return view;
     }

@@ -1,5 +1,6 @@
 package vicdron.com.maispromocoes.ui;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +15,7 @@ import vicdron.com.maispromocoes.R;
 
 
 public class PromobitFragment extends Fragment {
+    @SuppressLint({"VisibleForTests", "SetJavaScriptEnabled"})
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -21,7 +23,7 @@ public class PromobitFragment extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_promobit, container, false);
         ((AdView) view.findViewById(R.id.adView)).loadAd(new AdRequest.Builder().build());
 
-        WebView webView = (WebView) view.findViewById(R.id.webView);
+        WebView webView = view.findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://www.promobit.com.br/");

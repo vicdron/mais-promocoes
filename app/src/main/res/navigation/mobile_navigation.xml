@@ -28,4 +28,10 @@
         android:name="vicdron.com.maispromocoes.ui.ZoomFragment"
         android:label="Zoom + Promo"
         tools:layout="@layout/fragment_zoom" />
+
+    <fragment
+        android:id="@+id/navigation_gatry"
+        android:name="vicdron.com.maispromocoes.ui.GatryFragment"
+        android:label="Zoom + Promo"
+        tools:layout="@layout/fragment_gatry" />
 </navigation>
